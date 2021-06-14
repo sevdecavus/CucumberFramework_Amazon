@@ -13,4 +13,7 @@ public class AmazonPage {
     @FindBy (id="twotabsearchtextbox")
     public WebElement searchBox;
 
+    @FindBy(xpath =" //span[contains(text(),'1-16 of over 1,000 results for')]")
+    public WebElement resultNumber;
+
 }
